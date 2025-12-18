@@ -22,4 +22,4 @@ static unsigned int lines      = 0;
  */
 static const char worddelimiters[] = " ";
 
-static const char border_width = 3;
+static const int border_width = 3;
