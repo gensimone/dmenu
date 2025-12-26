@@ -9,10 +9,10 @@ static const char *fonts[] = {
 static const char *prompt = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
     /*     fg         bg       */
-    [SchemeNorm] = { "#c5c8c6", "#000000" },
-    [SchemeSel] = { "#000000", "#393963" },
-    [SchemeOut] = { "#000000", "#00ffff" },
-    [SchemeCursor] = { "#000000", "#c5c8c6"},
+    [SchemeNorm] = { "#ebdbb2", "#282828" },
+    [SchemeSel] = { "#282828", "#928374" },
+    [SchemeOut] = { "#282828", "#00ffff" },
+    [SchemeCursor] = { "#282828", "#ebdbb2"},
 
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
@@ -37,4 +37,3 @@ static Key quit_keys[] = {
     /* keysym	modifier */
     { XK_Escape,		0 }
 };
-
